@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+}
+
+.buttons_div{
+    margin-left: 50%;
+}
+
+div{
+    width: fit-content;
+}
+
+button {
+    margin-top: 2px;
+}
+
+.result_div, .help_text_div {
+    width: 158px;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 0 0 3px black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.number_button{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    box-shadow: 0 0 3px white;
+
+}
+
+.number_button:hover{
+    border-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.number_button:active {
+    border-color: white;
+    box-shadow: 0 0 20px white;
+    background-color: white;
+}
+
+.equals_button{
+    width: 158px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px white;
+}
+
+.equals_button:hover{
+    border-color: white;
+    box-shadow: 0 0 10px orange;
+}
+
+.equals_button:active{
+    border-color: orange;
+    box-shadow: 0 0 20px orange;
+    background-color: orange;
+}
+
+.clear_div, .clear_button{
+    width: 100%;
+}
+
+.clear_button{
+    width: 158px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px white;
+}
+
+.clear_button:hover{
+    border-color: white;
+    box-shadow: 0 0 10px red;
+}
+
+.clear_button:active{
+    border-color: red;
+    box-shadow: 0 0 20px red;
+    background-color: red;
+}
+
+.zero_button {
+    width: 158px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    box-shadow: 0 0 3px white;
+}
+
+.zero_button:hover{
+    border-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.zero_button:active{
+    border-color: white;
+    box-shadow: 0 0 20px white;
+    background-color: white;
+}
+
+.operator_button {
+    width: 77px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px white;
+}
+
+.operator_button:hover{
+    border-color: white;
+    box-shadow: 0 0 10px orange;
+}
+
+.operator_button:active{
+    border-color: orange;
+    box-shadow: 0 0 20px orange;
+    background-color: orange;
+}
+
